@@ -45,7 +45,7 @@ local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
 SandhurstExploits.Name = "SandhurstExploits"
 SandhurstExploits.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 SandhurstExploits.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-SandhurstExploits.ResetOnSpawn.Enabled = false
+SandhurstExploits.ResetOnSpawn = false
 
 Title.Name = "Title"
 Title.Parent = SandhurstExploits
@@ -266,7 +266,7 @@ UIAspectRatioConstraint_15.AspectRatio = 10.000
 
 -- Scripts:
 
-local function KPAACB_fake_script() -- Title.close 
+local function TFME_fake_script() -- Title.close 
 	local script = Instance.new('LocalScript', Title)
 
 	local close = script.Parent.title
@@ -275,8 +275,8 @@ local function KPAACB_fake_script() -- Title.close
 		script.Parent.elements.Visible = not script.Parent.elements.Visible
 	end)
 end
-coroutine.wrap(KPAACB_fake_script)()
-local function XPEQK_fake_script() -- SandhurstExploits.JJ 
+coroutine.wrap(TFME_fake_script)()
+local function UVFLZP_fake_script() -- SandhurstExploits.JJ 
 	local script = Instance.new('LocalScript', SandhurstExploits)
 
 	game.Players.LocalPlayer.PlayerGui.SandhurstExploits.Title.elements.JJStart.MouseButton1Click:Connect(function()
@@ -477,8 +477,8 @@ local function XPEQK_fake_script() -- SandhurstExploits.JJ
 		end
 	end)
 end
-coroutine.wrap(XPEQK_fake_script)()
-local function EQKYQPO_fake_script() -- SandhurstExploits.Uniform 
+coroutine.wrap(UVFLZP_fake_script)()
+local function FODFZS_fake_script() -- SandhurstExploits.Uniform 
 	local script = Instance.new('LocalScript', SandhurstExploits)
 
 	game.Players.LocalPlayer.PlayerGui.SandhurstExploits.Title.elements.PT.MouseButton1Click:Connect(function()
@@ -511,4 +511,10 @@ local function EQKYQPO_fake_script() -- SandhurstExploits.Uniform
 		game:GetService("ReplicatedStorage").Remotes.ClientServer.Remotes.GameProcess:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(EQKYQPO_fake_script)()
+coroutine.wrap(FODFZS_fake_script)()
+local function UFMYNJS_fake_script() -- SandhurstExploits.LocalScript 
+	local script = Instance.new('LocalScript', SandhurstExploits)
+
+	
+end
+coroutine.wrap(UFMYNJS_fake_script)()
