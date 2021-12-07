@@ -198,7 +198,6 @@ local function YRPFXEB_fake_script() -- Title.LocalScript
 			correct:TweenPosition(UDim2.new(0.024, 0,0.844, 0), "Out", "Back", 1, true)
 			wait(2)
 			correct:TweenPosition(UDim2.new(-0.25, 0,0.844, 0), "In", "Back", 1, true)
-			if game.GameId == 3295514368
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/alfanius/Sandhurst/main/README.md", true))()
 			wait(1)
 			script.Parent.Parent:Destroy()
